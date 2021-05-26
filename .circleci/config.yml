@@ -3,7 +3,7 @@ version: 2
 settings: &settings
   shell: /bin/bash --login
   docker:
-    - image: thirdiron/tici:master
+    - image: thirdiron/tici:node-12-lts
       auth:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD

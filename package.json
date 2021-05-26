@@ -1,10 +1,10 @@
 {
   "name": "browzine-discovery-service-adapters",
-  "version": "1.0.0",
-  "description": "Summon adapter to augment journal results with custom BrowZine API data.",
+  "version": "1.0.1",
+  "description": "Primo, Summon, and 360 Core adapter to augment journal results with custom BrowZine API data.",
   "engines": {
-    "node": "8.11.2",
-    "npm": "6.1.0"
+    "node": "12.22.0",
+    "npm": "6.14.0"
   },
   "scripts": {
     "server": "http-server --cors -p 8080",
